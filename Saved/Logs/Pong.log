@@ -1164,3 +1164,53 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.12.24-00.47.37:637][970]EditorErrors: Warning: No assets to check in!
 [2024.12.24-00.47.42:406][486]LogSlate: Window 'Message Log' being destroyed
 [2024.12.24-00.47.42:417][486]LogSlate: Window 'Message Log' being destroyed
+[2024.12.24-01.01.41:394][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.12.24-01.01.41:412][808]LogStall: Shutdown...
+[2024.12.24-01.01.41:419][808]LogStall: Shutdown complete.
+[2024.12.24-01.01.41:450][808]LogSlate: Window 'Pong - Unreal Editor' being destroyed
+[2024.12.24-01.01.41:526][808]Cmd: QUIT_EDITOR
+[2024.12.24-01.01.41:526][809]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.12.24-01.01.41:528][809]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.12.24-01.01.41:528][809]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.12.24-01.01.41:528][809]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.12.24-01.01.41:535][809]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2024.12.24-01.01.41:536][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.24-01.01.41:536][809]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2024.12.24-01.01.41:536][809]LogContentBundle: [Untitled_1(Standalone)] Deleting container.
+[2024.12.24-01.01.41:537][809]LogWorldMetrics: [UWorldMetricsSubsystem::Deinitialize]
+[2024.12.24-01.01.41:537][809]LogWorldMetrics: [UWorldMetricsSubsystem::Clear]
+[2024.12.24-01.01.41:539][809]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.12.24-01.01.41:675][809]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.12.24-01.01.41:681][809]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.12.24-01.01.41:681][809]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.12.24-01.01.41:681][809]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.12.24-01.01.41:682][809]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.12.24-01.01.41:682][809]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.12.24-01.01.41:682][809]LogAudio: Display: Audio Device unregistered from world 'Untitled_1'.
+[2024.12.24-01.01.41:682][809]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.12.24-01.01.41:682][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.24-01.01.41:683][809]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.24-01.01.41:687][809]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.12.24-01.01.41:687][809]LogAudio: Display: Audio Device Manager Shutdown
+[2024.12.24-01.01.41:687][809]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.12.24-01.01.41:690][809]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.12.24-01.01.41:690][809]LogExit: Preparing to exit.
+[2024.12.24-01.01.41:705][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.12.24-01.01.42:433][809]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.12.24-01.01.42:442][809]LogExit: Editor shut down
+[2024.12.24-01.01.42:457][809]LogExit: Transaction tracking system shut down
+[2024.12.24-01.01.42:534][809]LogExit: Object subsystem successfully closed.
+[2024.12.24-01.01.42:600][809]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.12.24-01.01.43:495][809]MemoryProfiler: Shutdown
+[2024.12.24-01.01.43:495][809]NetworkingProfiler: Shutdown
+[2024.12.24-01.01.43:495][809]LoadingProfiler: Shutdown
+[2024.12.24-01.01.43:495][809]TimingProfiler: Shutdown
+[2024.12.24-01.01.43:688][809]LogOpenImageDenoise: OIDN shutting down
+[2024.12.24-01.01.43:935][809]RenderDocPlugin: plugin has been unloaded.
+[2024.12.24-01.01.43:971][809]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.12.24-01.01.43:971][809]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4EE618CF-48ED-D001-883C-7FA09284DB30%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.4.2-33871570%2B%2B%2BUE5%2BRelease-5.4&UserID=ddb1ebca4719b7c516c98981142908ba%7C0d208676a4c844a9981f6591d1c26481%7C8e39c351-c883-4450-93e3-b53e6fae830d&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2024.12.24-01.01.44:004][809]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2024.12.24-01.01.44:020][809]LogPakFile: Destroying PakPlatformFile
+[2024.12.24-01.01.44:114][809]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.12.24-01.01.44:140][809]LogExit: Exiting.
+[2024.12.24-01.01.44:159][809]Log file closed, 12/23/24 20:01:44
