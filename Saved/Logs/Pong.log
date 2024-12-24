@@ -1068,3 +1068,4 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.12.24-22.11.57:526][429]SourceControl: fatal: D:/Program Files/Epic Games/UE_5.4/Engine/Plugins/ChaosVD/Content: 'D:/Program Files/Epic Games/UE_5.4/Engine/Plugins/ChaosVD/Content' is outside repository at 'D:/Development/Unreal Projects/Pong'
 [2024.12.24-22.11.57:526][429]SourceControl: fatal: D:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Bridge/Content: 'D:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Bridge/Content' is outside repository at 'D:/Development/Unreal Projects/Pong'
 [2024.12.24-22.11.57:610][429]EditorErrors: Warning: No assets to check in!
+[2024.12.24-22.13.31:739][435]LogDerivedDataCache: C:/Users/XAVIE/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
